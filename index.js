@@ -1,6 +1,6 @@
-//jodi database connect a pblm hoi....taile nicher 2 line ekhane likhe dibo
-// const dns = require("node:dns");
-// dns.setServers(["8.8.8.8", "8.8.4.4"]);
+// jodi database connect a pblm hoi....taile nicher 2 line ekhane likhe dibo
+const dns = require("node:dns");
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
 
 const express = require('express')
 const cors=require("cors")
